@@ -1,5 +1,7 @@
 {
   "name": "space-tourism",
+  "author": "Wilson",
+  "email": "wilsonkinyuam@gmail.com",
   "version": "0.1.0",
   "private": true,
   "scripts": {
