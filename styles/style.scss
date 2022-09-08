@@ -1,0 +1,42 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0b0d17;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.homepage {
+  background-image: url("../public/home/background-home-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-blur {
+  background-color: #6565656c;
+  padding-right: 100px;
+}
+
+li {
+  list-style: none;
+}
+
+// .navbar {
+//     margin-top: 20px;
+// }
+
+.nav-link {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 25px;
+  position: relative;
+}
