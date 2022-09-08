@@ -4,13 +4,15 @@ export default function Header() {
     <div className="pt-4">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand text-white" href="/">
-            <img
-              src="https://www.cyclic.sh/images/cyclic-logo.png"
-              alt=""
-              height="70px"
-            />
-          </a>
+          <Link href="/">
+            <a className="navbar-brand text-white">
+              <img
+                src="https://www.cyclic.sh/images/cyclic-logo.png"
+                alt=""
+                height="70px"
+              />
+            </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
