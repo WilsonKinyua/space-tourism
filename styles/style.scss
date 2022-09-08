@@ -3,12 +3,14 @@
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
 @import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 
 body {
   margin: 0;
   padding: 0;
   background-color: #0b0d17;
   font-family: "Saira Condensed", sans-serif;
+  color: #fff;
 }
 
 .homepage {
@@ -29,10 +31,6 @@ li {
   list-style: none;
 }
 
-// .navbar {
-//     margin-top: 20px;
-// }
-
 .nav-link {
   color: #fff;
   text-transform: uppercase;
@@ -40,3 +38,44 @@ li {
   padding: 25px;
   position: relative;
 }
+
+// homepage
+.intro {
+  margin-top: 220px;
+  font-family: "Bellefair", serif;
+
+  h4 {
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: 300;
+  }
+
+  h1 {
+    font-size: 144px;
+    letter-spacing: 7px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h5 {
+    padding: 140px 80px;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    font-size: 35px;
+    float: right;
+    border: 2px solid #fff;
+
+    &:hover {
+      background-color: #d0d6f9;
+      color: #fff;
+    }
+  }
+}
+
+@import "_responsive";

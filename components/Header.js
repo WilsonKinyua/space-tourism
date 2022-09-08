@@ -1,7 +1,4 @@
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-
 export default function Header() {
   return (
     <div className="pt-4">
@@ -9,8 +6,9 @@ export default function Header() {
         <div className="container-fluid">
           <a className="navbar-brand text-white" href="/">
             <img
-              src="https://docs.docker.com/assets/images/docker-docs-logo.svg"
+              src="https://www.cyclic.sh/images/cyclic-logo.png"
               alt=""
+              height="70px"
             />
           </a>
           <button
@@ -22,8 +20,8 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            {/* <span className="navbar-toggler-icon"></span> */}
-            <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} />
+            <span className="navbar-toggler-icon"></span>
+            {/* <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }} /> */}
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0"></ul>

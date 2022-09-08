@@ -1,0 +1,62 @@
+@media (max-width: 768px) {
+  .intro {
+    margin-top: 50px;
+    text-align: center;
+
+    h4 {
+      font-size: 18px;
+      letter-spacing: 4px;
+      font-weight: 300;
+    }
+
+    h1 {
+      font-size: 80px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    h5 {
+      padding: 90px 45px;
+      width: 200px;
+      height: 200px;
+      font-size: 30px;
+      float: none;
+      margin: auto;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+    .intro {
+        // margin-top: 200px;
+        text-align: center;
+    
+        h4 {
+          font-size: 18px;
+          letter-spacing: 1px;
+          font-weight: 300;
+        }
+    
+        h1 {
+          font-size: 80px;
+        }
+    
+        p {
+          font-size: 16px;
+        }
+    
+        h5 {
+          padding: 90px 45px;
+          width: 200px;
+          height: 200px;
+          font-size: 30px;
+          float: none;
+          margin: auto;
+        }
+      }
+}
+
+@media only screen and (min-width: 1200px) {
+}
