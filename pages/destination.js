@@ -10,7 +10,13 @@ export default function Destination() {
         <div className="destination-wrapper">
           <div className="row">
             <div className="col-md-6">
-              <img src="/destination/image-moon.png" alt="Moon" className="destination-img" />
+              <picture>
+                <img
+                  src="/destination/image-moon.png"
+                  alt="Moon"
+                  className="destination-img"
+                />
+              </picture>
             </div>
             <div className="col-md-6">
               <ul className="nav nav-pills nav-fill">

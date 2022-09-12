@@ -9,11 +9,13 @@ export default function Header() {
         <div className="container-fluid">
           <Link href="/">
             <a className="navbar-brand text-white">
-              <img
-                src="https://www.cyclic.sh/images/cyclic-logo.png"
-                alt=""
-                height="70px"
-              />
+              <picture>
+                <img
+                  src="https://www.cyclic.sh/images/cyclic-logo.png"
+                  alt=""
+                  height="70px"
+                />
+              </picture>
             </a>
           </Link>
           <button
@@ -33,13 +35,19 @@ export default function Header() {
             <div className="d-flex bg-blur">
               <li className="nav-item">
                 <Link href="/">
-                  <a className={router.pathname == "/" ? "nav-link active": "nav-link"}>Home</a>
+                  <a
+                    className={
+                      router.pathname == "/" ? "nav-link active" : "nav-link"
+                    }
+                  >
+                    Home
+                  </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/destination">
                   <a className="nav-link">Destination</a>
-                </Link> 
+                </Link>
               </li>
               <li className="nav-item">
                 <Link href="/crew">
