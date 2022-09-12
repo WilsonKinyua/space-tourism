@@ -10,7 +10,7 @@ export default function Destination() {
         <div className="destination-wrapper">
           <div className="row">
             <div className="col-md-6">
-              <img src="/destination/image-moon.png" alt="Moon" className="desctination-img" />
+              <img src="/destination/image-moon.png" alt="Moon" className="destination-img" />
             </div>
             <div className="col-md-6">
               <ul className="nav nav-pills nav-fill">
@@ -35,7 +35,7 @@ export default function Destination() {
                   </Link>
                 </li>
               </ul>
-              <div className="desctination-content">
+              <div className="destination-content">
                 <h2 className="header">MOON</h2>
                 <p>
                   See our planet as you’ve never seen it before. A perfect
@@ -47,7 +47,7 @@ export default function Destination() {
                   voluptatem assumenda.
                 </p>
                 <hr />
-                <div className="desctination-content-footer">
+                <div className="destination-content-footer">
                   <div className="row">
                     <div className="col-md-5">
                       <h6>AVG. DISTANCE</h6>

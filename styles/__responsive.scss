@@ -40,6 +40,37 @@
       margin: auto;
     }
   }
+
+  .destination {
+    background-image: url("../public/destination/background-destination-mobile.jpg");
+    text-align: center;
+    .nav-pills {
+      margin-top: 50px;
+      .nav-link {
+        padding: 0;
+      }
+    }
+    .headings {
+      margin-top: 20px;
+      font-size: 24px;
+      letter-spacing: 4px;
+    }
+    .destination-img {
+      padding-top: 30px;
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .destination-wrapper {
+      margin-top: 0px;
+      padding: 0px 0px;
+    }
+
+    .destination-content {
+      padding: 11px;
+    }
+  }
 }
 
 @media only screen and (max-width: 992px) {
