@@ -13,6 +13,28 @@ body {
   color: #fff;
 }
 
+.active:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 40px 0px;
+}
+
+.headings {
+  margin-top: 80px;
+  font-weight: 300;
+  font-size: 34px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.header {
+  font-size: 120px;
+  font-weight: 300;
+  letter-spacing: 7px;
+}
+
 .homepage {
   background-image: url("../public/home/background-home-desktop.jpg");
   background-position: center;
@@ -73,9 +95,35 @@ li {
     border: 2px solid #fff;
 
     &:hover {
-    //   background-color: #d0d6f9;
+      //   background-color: #d0d6f9;
       color: rgb(0, 0, 0);
     }
+  }
+}
+
+.destination {
+  background-image: url("../public/destination/background-destination-desktop.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+  .desctination-img {
+    padding-top: 50px;
+  }
+
+  .destination-wrapper {
+    margin-top: 20px;
+    padding: 0px 20px;
+  }
+
+  .desctination-content {
+    padding: 45px;
+  }
+
+  .desctination-content-footer {
+    text-transform: uppercase;
   }
 }
 

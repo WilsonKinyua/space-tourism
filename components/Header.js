@@ -1,5 +1,8 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 export default function Header() {
+  const router = useRouter();
+
   return (
     <div className="pt-4">
       <nav className="navbar navbar-expand-lg">
@@ -30,13 +33,13 @@ export default function Header() {
             <div className="d-flex bg-blur">
               <li className="nav-item">
                 <Link href="/">
-                  <a className="nav-link">Home</a>
+                  <a className={router.pathname == "/" ? "nav-link active": "nav-link"}>Home</a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/destination">
                   <a className="nav-link">Destination</a>
-                </Link>
+                </Link> 
               </li>
               <li className="nav-item">
                 <Link href="/crew">
