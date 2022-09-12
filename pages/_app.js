@@ -1,7 +1,11 @@
 import "../styles/style.scss";
 import Head from "next/head";
+import {useEffect } from "react";
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    import("bootstrap/dist/js/bootstrap.bundle");
+  }, []);
   return (
     <>
       <Head>

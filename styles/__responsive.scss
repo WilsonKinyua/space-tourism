@@ -1,4 +1,18 @@
 @media (max-width: 768px) {
+  .navbar {
+    .bg-blur {
+      padding-right: 5px;
+    }
+
+    ul li {
+      display: inline-block;
+    }
+
+    .nav-link {
+      padding: 15px;
+      position: relative;
+    }
+  }
   .intro {
     margin-top: 50px;
     text-align: center;
@@ -29,33 +43,33 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .intro {
-        // margin-top: 200px;
-        text-align: center;
-    
-        h4 {
-          font-size: 18px;
-          letter-spacing: 1px;
-          font-weight: 300;
-        }
-    
-        h1 {
-          font-size: 80px;
-        }
-    
-        p {
-          font-size: 16px;
-        }
-    
-        h5 {
-          padding: 90px 45px;
-          width: 200px;
-          height: 200px;
-          font-size: 30px;
-          float: none;
-          margin: auto;
-        }
-      }
+  .intro {
+    // margin-top: 200px;
+    text-align: center;
+
+    h4 {
+      font-size: 18px;
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
+
+    h1 {
+      font-size: 80px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    h5 {
+      padding: 90px 45px;
+      width: 200px;
+      height: 200px;
+      font-size: 30px;
+      float: none;
+      margin: auto;
+    }
+  }
 }
 
 @media only screen and (min-width: 1200px) {
